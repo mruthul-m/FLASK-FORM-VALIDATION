@@ -5,7 +5,7 @@ from wtforms.validators import DataRequired
 
 
 app = Flask("__name__")
-app.secret_key = "mruthul_assigned_new_key"
+app.secret_key = "you_can_provide_your_own_secret_key_string"
 
 
 class LoginForm(FlaskForm):
